@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			.box1 {
+				border-style: dashed solid dotted outset;
+				/* border-top-style: dashed; */
+				/* border: 10px inset red; */
+				border-width: 2px 2px thin thick;
+				margin: 10pt;
+				padding: 5px;
+				width: 140px;
+				height: 140px;
+			}
+
+
+			.box2 {
+				border: 2px dotted greenyellow;
+				width: 190px;
+				height: 190px;
+				text-align: center;
+				line-height: 11;
+				margin-bottom: 19px;
+				margin-left: 20px;
+				background-color: thistle;
+			}
+
+			.box3 {
+				border: 2px dotted mediumvioletred;
+				width: 190px;
+				height: 190px;
+				text-align: center;
+				line-height: 11;
+				margin-top: -30px;
+				/* background-color: lavender; */
+				/* 后面的元素覆盖前面的元素 */
+			}
+		</style>
+		<title>盒子的介绍</title>
+	</head>
+	<body>
+		<div class="box1">
+			盒子模型的组成
+		</div>
+
+		<div class="box2">
+			盒子1(块级元素垂直重合)
+		</div>
+
+		<div class="box3">
+			盒子(行内元素可同理)
+		</div>
+	</body>
+</html>
